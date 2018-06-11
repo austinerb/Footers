@@ -1,0 +1,104 @@
+.so footer {
+  font-family: sans-serif;
+  background-color: #242729;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.so .wrapper {
+  width: 1075px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+  background-color: #242729;
+}
+
+/* logo */
+
+.so img {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* lists */
+
+.so .footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 28px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+}
+
+.so .footer-list h5 {
+  margin: 0;
+  margin-bottom: 16px;
+  max-width: 150px;
+}
+
+.so .footer-list h5 a {
+  font-size: 1em;
+  color: #bbc0c4;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.so .footer-list h5 a:hover {
+  color: #f2f3f3;
+}
+
+.so .footer-list li {
+  margin-bottom: 6px;
+}
+
+.so .footer-list li a {
+  font-size: .85em;
+  color: #848d95;
+  text-decoration: none;
+}
+
+.so .footer-list li a:hover {
+  color: #bbc0c4;
+}
+
+/* end column */
+
+.so .end-col {
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  margin-left: 27px;
+  font-size: .7em;
+}
+
+.so .end-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.so .end-col ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.so .end-col ul li a {
+  color: #848d95;
+  text-decoration: none;
+}
+
+.so .end-col ul li a:hover {
+  color: #bbc0c4;
+}
+
+.so .end-col .info {
+  margin-top: 120px;
+  color: #7a838c;
+}
