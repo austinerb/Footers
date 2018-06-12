@@ -5,14 +5,42 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #eee;
 }
 
-.so {
+.so,
+.evernote {
   display: none;
 }
 
-.footer-btn-selected {
-  color: red;
+main {
+  padding: 2em 0;
+  color: #222;
+  text-align: center;
+}
+
+main h1 {
+  margin: 0;
+}
+
+.footer-btns {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #ddd;
+  padding: 1em;
+}
+
+.footer-btns li {
+  display: inline-block;
+  padding: 1em;
+  background-color: white;
+}
+
+.footer-btns .footer-btn-selected {
+  color: white;
+  background-color: #478dff;
+  box-shadow: 0 3px 3px rgba(0,0,0,.3);
 }
 
 .footer-show {
