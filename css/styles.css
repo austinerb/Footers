@@ -6,11 +6,16 @@ body {
   padding: 0;
   margin: 0;
   background-color: #eee;
+  height: 100vh;
 }
 
 .so,
-.evernote {
+.evernote,
+.linkedin {
   display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 main {
